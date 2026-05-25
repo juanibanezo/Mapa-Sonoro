@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colección Sonora — Mapa Sonoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body div class="backgroundbody2">
+
+    <header>
+        <a href="index.html" class="volver-link">← Volver al inicio</a>
+        <h1>Colección Sonora</h1>
+        <h2>Cuatro piezas — cuatro perspectivas</h2>
+        <hr>
+    </header>
+
+    <main>
+
+        <!-- PIEZA I -->
+        <section>
+            <div class="pieza-header">
+                <span>I</span>
+                <div>
+                    <h2>Universidad</h2>
+                    <h3>El bosque como hábitat</h3>
+                </div>
+            </div>
+            <p>Se grabaron estos sonidos en diferentes lugares de la universidad, mostrando todo lo que esta tiene: desde el ruido de los deportistas, la actividad en clase y la fuente en sus afueras.</p>
+            <div class="galeria-piezas">
+                <div class="cuadro">
+                    <img src="sourceimage/rebotar.png" alt="Rebote">
+                    <figure><figcaption>Representa el ritmo del balón</figcaption></figure>
+                    <p>El sonido del deporte</p>
+                    <audio controls preload="auto"><source src="sourceaudio/rebotar.mp3" type="audio/mp3"></audio>
+                </div>
+                <div class="cuadro">
+                    <img src="../sourceimage/clasepro.png" alt="Clase">
+                    <figure><figcaption>El caos organizado, convivencia</figcaption></figure>
+                    <p>La clase</p>
+                    <audio controls><source src="../sourceaudio/claseaudio.mp3" type="audio/mp3"></audio>
+                </div>
+                <div class="cuadro">
+                    <img src="../sourceimage/agua.png" alt="Fuente">
+                    <figure><figcaption>El movimiento del agua</figcaption></figure>
+                    <p>Fluir como fuente</p>
+                    <audio controls><source src="../sourceaudio/agua.mp3" type="audio/mp3"></audio>
+                </div>
+            </div>
+        </section>
+
+        <div class="separador-dorado"></div>
+
+        <!-- PIEZA II -->
+        <section>
+            <div class="pieza-header">
+                <span>II</span>
+                <div>
+                    <h2>Ciudad</h2>
+                    <h3>Bogotá como te quiero</h3>
+                </div>
+            </div>
+            <p>Sonidos típicos de nuestra ciudad del realismo mágico: desde el viento que fuerte sopla, hasta los trancones típicos de nuestras vías y vecinos que roban paz.</p>
+            <div class="galeria-piezas">
+                <div class="cuadro">
+                    <img src="../sourceimage/vecino.png" alt="Vecino">
+                    <figure><figcaption>Dando vida al barrio</figcaption></figure>
+                    <p>En fondo del viento hay algo oculto</p>
+                    <audio controls><source src="../sourceaudio/Bogota-VientoMP3.mp3" type="audio/mp3"></audio>
+                </div>
+                <div class="cuadro">
+                    <img src="../sourceimage/carretera.png" alt="Carretera">
+                    <figure><figcaption>El diario vivir a las 6am</figcaption></figure>
+                    <p>El caos de todas las mañanas</p>
+                    <audio controls><source src="../sourceaudio/Carretera.mp3" type="audio/mp3"></audio>
+                </div>
+                <div class="cuadro">
+                    <img src="../sourceimage/silencio.png" alt="Silencio">
+                    <figure><figcaption>Al final de la tormenta...</figcaption></figure>
+                    <p>La sorpresiva paz</p>
+                    <audio controls><source src="../sourceaudio/silencio.mp3" type="audio/mp3"></audio>
+                </div>
+            </div>
+        </section>
+
+        <div class="separador-dorado"></div>
+
+        <!-- PIEZA III -->
+        <section>
+            <div class="pieza-header">
+                <span>III</span>
+                <div>
+                    <h2>Cuerpo</h2>
+                    <h3>Conocimiento propio</h3>
+                </div>
+            </div>
+            <p>Para poder entender el mundo hay que empezar en el mundo que habita dentro de uno: sonidos vitalicios, accesorios como marca personal y capacidades.</p>
+            <div class="galeria-piezas">
+                <div class="cuadro">
+                    <img src="../sourceimage/live.png" alt="aire">
+                    <figure><figcaption>El acto de la vida, simple</figcaption></figure>
+                    <p>La respiración</p>
+                    <audio controls><source src="../sourceaudio/aire.ogg" type="audio/ogg"></audio>
+                </div>
+                <div class="cuadro">
+                    <img src="../sourceimage/respira.png" alt="cadenas">
+                    <figure><figcaption>Cadenas y no mentales</figcaption></figure>
+                    <p>El sonido del golpe</p>
+                    <audio controls><source src="../sourceaudio/CadenasOGG.ogg" type="audio/ogg"></audio>
+                </div>
+                <div class="cuadro">
+                    <img src="../sourceimage/chasquido.png" alt="chasquido">
+                    <figure><figcaption>Chasquea los dedos.</figcaption></figure>
+                    <p>Marca el tiempo, haz ritmo</p>
+                    <audio controls><source src="../sourceaudio/chasquido.ogg" type="audio/ogg"></audio>
+                </div>
+            </div>
+        </section>
+
+        <div class="separador-dorado"></div>
+
+        <!-- PIEZA IV -->
+        <section>
+            <div class="pieza-header">
+                <span>IV</span>
+                <div>
+                    <h2>Tecnológico</h2>
+                    <h3>Está en todos lados</h3>
+                </div>
+            </div>
+            <p>La tecnología no son solo circuitos y programas. En el mundo moderno está en todos lados, párate a escuchar y verás que está ahí contigo.</p>
+            <div class="galeria-piezas">
+                <div class="cuadro">
+                    <img src="../sourceimage/tecleo.png" alt="Teclado">
+                    <figure><figcaption>El tecleo junto a música sintetizada</figcaption></figure>
+                    <p>El clásico tecleo</p>
+                    <audio controls><source src="../sourceaudio/tecladosimon.mp3" type="audio/mp3"></audio>
+                </div>
+                <div class="cuadro">
+                    <img src="../sourceimage/acondicionao.png" alt="servidor">
+                    <figure><figcaption>Una máquina que respira</figcaption></figure>
+                    <p>La ventilación es el pulmón tecnológico</p>
+                    <audio controls><source src="../sourceaudio/aireacondicionao.mp3" type="audio/mp3"></audio>
+                </div>
+                <div class="cuadro">
+                    <img src="../sourceimage/licuadora.png" alt="Licuadora">
+                    <figure><figcaption>Está hasta en lo que comes</figcaption></figure>
+                    <p>El ruidoso sonido de mamá cocinando</p>
+                    <audio controls><source src="../sourceaudio/LicuadoraMP3.mp3" type="audio/mp3"></audio>
+                </div>
+            </div>
+        </section>
+
+        <div class="separador-dorado"></div>
+
+        <!-- FORMULARIO -->
+        <section>
+            <h2 class="titulo-seccion">Sugerir un Nuevo Sonido</h2>
+            <p>¿Tienes un sonido que debería estar en esta colección? Cuéntanos:</p>
+            <form action="#" method="post">
+                <label for="nombre-sonido">Nombre del sonido</label>
+                <input type="text" id="nombre-sonido" name="nombre_sonido" placeholder="Ej. Mercado de las Flores">
+                <label for="lugar">Lugar de grabación</label>
+                <input type="text" id="lugar" name="lugar" placeholder="Ej. La Candelaria, Bogotá">
+                <label for="categoria">Categoría</label>
+                <select id="categoria" name="categoria">
+                    <option value="">— Seleccionar —</option>
+                    <option value="universidad">Universidad</option>
+                    <option value="ciudad">Ciudad</option>
+                    <option value="cuerpo">Cuerpo</option>
+                    <option value="tecnologico">Tecnológico</option>
+                </select>
+                <label for="descripcion">Descripción</label>
+                <textarea id="descripcion" name="descripcion" rows="4" placeholder="Describe qué sonidos tiene y por qué es importante para el archivo..."></textarea>
+                <button type="submit">Enviar sugerencia</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <a href="index.html" class="volver-link">← Volver al inicio</a>
+        <p>Mapa Sonoro — Un pedazo del mundo</p>
+        <p>Asignatura: Lenguajes Digitales · Universidad del Bosque · 2026 · Juan Manuel Ibañez</p>
+    </footer>
+
+</body>
+</html>
