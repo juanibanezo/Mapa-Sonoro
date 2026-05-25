@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "mapita",
+			"path": "."
+		},
+		{
+			"name": "sourcesvideo",
+			"path": "../MapaSonoro-JuanIbañez/MapaSonoro-Juan/sourcesvideo"
+		},
+		{
+			"name": "sourceaudio",
+			"path": "../MapaSonoro-JuanIbañez/MapaSonoro-Juan/sourceaudio"
+		},
+		{
+			"name": "sourceimage",
+			"path": "../MapaSonoro-JuanIbañez/MapaSonoro-Juan/sourceimage"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mapita"
+	}
+}
